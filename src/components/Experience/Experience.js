@@ -5,7 +5,6 @@ import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import ButtonBase from "@material-ui/core/ButtonBase";
 import Container from "@material-ui/core/Container";
-import Card from "@material-ui/core/Card";
 
 import { experiences } from "../../data/experiences";
 
@@ -33,7 +32,7 @@ const Experience = () => {
                       </Grid>
                       <Grid item>
                         <ButtonBase className={classes.image}>
-                          <img className={classes.img} src={job.logo} />
+                          <img className={classes.img} alt={job.title} src={job.logo} />
                         </ButtonBase>
                       </Grid>
                       <Grid item>

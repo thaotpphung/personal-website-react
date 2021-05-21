@@ -5,7 +5,6 @@ import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import ButtonBase from "@material-ui/core/ButtonBase";
 import Container from "@material-ui/core/Container";
-import Card from "@material-ui/core/Card";
 
 import TrumanLogo from "../../img/logos/truman_logo.webp";
 
