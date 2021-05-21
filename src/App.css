@@ -1,0 +1,17 @@
+canvas {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+}
+
+* { margin: 0; padding: 0;}
+
+body, html { 
+  height:100%; 
+  overflow: scroll;
+}
