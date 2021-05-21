@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: '50%',
   },
   link: {
-    color: 'inherit',
+    color: 'black',
     '&:hover': {
       textDecoration: 'none'
     }

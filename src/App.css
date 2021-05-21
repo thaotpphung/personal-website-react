@@ -1,12 +1,12 @@
 canvas {
-  position: absolute;
+  position: absolute !important;;
   top: 0px;
   left: 0px;
   right: 0px;
   bottom: 0px;
   z-index: -1;
   width: 100vw;
-  height: 100vh;
+  height: 100vh !important;
 }
 
 * { margin: 0; padding: 0;}

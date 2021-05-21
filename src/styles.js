@@ -12,7 +12,8 @@ export const theme = createMuiTheme({
       contrastText: '#fff',
     },
     secondary: {
-      main: pink[100]
+      main: pink[100],
+      contrastText: '#fff',
     }
   },
   typography: {
