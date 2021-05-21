@@ -5,6 +5,7 @@ import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import ButtonBase from "@material-ui/core/ButtonBase";
 import Container from "@material-ui/core/Container";
+import Card from "@material-ui/core/Card";
 
 import TrumanLogo from "../../img/logos/truman_logo.webp";
 
@@ -13,6 +14,7 @@ const Education = () => {
   return (
     <div className={classes.root}>
       <Container maxWidth="md">
+      {/* <Card className={classes.card}> */}
         <Grid container spacing={2}>
           <Grid item xs={4} container>
             <Grid
@@ -24,7 +26,7 @@ const Education = () => {
               align="center"
             >
               <Grid item>
-                <Typography variant="h5">Truman State University</Typography>
+                <Typography variant="h6">Truman State University</Typography>
               </Grid>
               <Grid item>
                 <ButtonBase className={classes.image}>
@@ -41,7 +43,7 @@ const Education = () => {
           <Grid item xs={8} container>
             <Grid item xs container direction="column" spacing={2}>
               <Grid item xs>
-                <Typography gutterBottom variant="h5">
+                <Typography gutterBottom variant="h6">
                   B.S in Computer Science, minor in Mathematics
                 </Typography>
                 <Typography variant="subtitle1" gutterBottom>
@@ -106,6 +108,7 @@ const Education = () => {
             </Grid>
           </Grid>
         </Grid>
+        {/* </Card> */}
       </Container>
     </div>
   );

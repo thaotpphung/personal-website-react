@@ -5,6 +5,8 @@ import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
 import Link from "@material-ui/core/Link";
+import Card from "@material-ui/core/Card";
+
 
 import Selfie from "../../img/me/selfie.jpeg";
 import { link1, link2 } from "../../data/links";

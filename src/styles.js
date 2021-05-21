@@ -9,7 +9,7 @@ export const useStyles = makeStyles((theme) => ({
 export const theme = createMuiTheme({
   palette: {
     primary: {
-      main: blue[200],
+      main: pink[100],
       contrastText: '#fff',
     },
     secondary: {

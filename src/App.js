@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect, useRef } from "react";
 import WAVES from "vanta/dist/vanta.waves.min";
-import './App.css';
+import "./App.css";
 
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { Container } from "@material-ui/core";
@@ -33,11 +33,9 @@ const App = () => {
           minWidth: 200.0,
           scale: 1.0,
           scaleMobile: 1.0,
-          color: 0x629bca,
+          color: 0xbba6a8,
           shininess: 0.0,
-          waveHeight: 19.0,
-          waveSpeed: 0.95,
-          zoom: 1.07,
+          waveHeight: 17.0,
         })
       );
     }
