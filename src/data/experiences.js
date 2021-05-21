@@ -4,8 +4,9 @@ import FPTLogo from "../img/logos/fpt_logo.webp";
 
 export const experiences = [
   {
-    company: "Ascension",
-    title: "Software Developer Intern",
+    id: 0,
+    company: "Ascension Technologies",
+    title: "Software Developer Intern (Incoming)",
     location: "St.Louis, MO",
     startDate: "May 2021",
     endDate: "Aug 2021",
@@ -19,6 +20,7 @@ export const experiences = [
     ],
   },
   {
+    id: 1,
     company: "Truman State University",
     title: "Calculus Tutor",
     location: "Kirksville, MO",
@@ -31,6 +33,7 @@ export const experiences = [
     ],
   },
   {
+    id: 2,
     company: "FPT Software",
     title: "Java Developer Intern",
     location: "Hanoi, Vietnam",

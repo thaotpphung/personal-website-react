@@ -16,9 +16,8 @@ const Experience = () => {
         <Grid container direction="column" spacing={5}>
           {experiences.map((job) => {
             return (
-              // <Card className={classes.card}>
-                <Grid item container spacing={2}>
-                  <Grid item xs={4} container>
+                <Grid key={job.id} item container spacing={2}>
+                  <Grid item xs={12} sm={4} container>
                     <Grid
                       item
                       xs
@@ -39,31 +38,28 @@ const Experience = () => {
                         <Typography variant="subtitle1">
                           {job.location}
                         </Typography>
-                        <Typography variant="substitle1">
+                        <Typography variant="subtitle1">
                           {job.startDate} - {job.endDate}
                         </Typography>
                       </Grid>
                     </Grid>
                   </Grid>
 
-                  <Grid item xs={8} container>
+                  <Grid item xs={12} sm={8} container>
                     <Grid item xs container direction="column" spacing={2}>
                       <Grid item xs>
                         <Typography gutterBottom variant="h6">
                           {job.title}
                         </Typography>
-                        <Typography gutterBottom>
                           <ul>
                             {job.responsibilities.map((line) => {
-                              return <li>{line}</li>;
+                              return (<li key={line}>{line}</li>);
                             })}
                           </ul>
-                        </Typography>
                       </Grid>
                     </Grid>
                   </Grid>
                 </Grid>
-              // </Card>
             );
           })}
         </Grid>

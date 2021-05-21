@@ -33,34 +33,27 @@ const About = () => {
           thinking, problem solving, and programming skills. Please feel free to
           contact me if you want to reach out or have any questions.
         </Typography>
-        <br/>
-        <Typography variant="body1">
-          <Grid
-            className="introduction"
-            container
-            spacing={10}
-            justify="center"
-          >
-            <Grid item>
-              {link1.map((link) => {
-                return (
-                  <Link className={classes.link} key={link.id} href={link.href}>
-                   {link.icon} {link.title} {link.content} <br />
-                  </Link>
-                );
-              })}
-            </Grid>
-            <Grid item>
-              {link2.map((link) => {
-                  return (
-                    <Link key={link.id} className={classes.link} href={link.href}>
-                    {link.icon} {link.title} {link.content} <br />
-                    </Link>
-                  );
-              })}
-            </Grid>
+        <br />
+        <Grid className="introduction" container spacing={5} justify="center">
+          <Grid xs={12} sm={6} item>
+            {link1.map((link) => {
+              return (
+                <Link className={classes.link} key={link.id} href={link.href}>
+                  {link.icon} {link.title} {link.content} <br />
+                </Link>
+              );
+            })}
           </Grid>
-        </Typography>
+          <Grid xs={12} sm={6} item>
+            {link2.map((link) => {
+              return (
+                <Link key={link.id} className={classes.link} href={link.href}>
+                  {link.icon} {link.title} {link.content} <br />
+                </Link>
+              );
+            })}
+          </Grid>
+        </Grid>
       </Container>
     </div>
   );

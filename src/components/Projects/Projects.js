@@ -16,7 +16,7 @@ const Projects = () => {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-     <Container className={classes.cardGrid} maxWidth="md">
+     <Container className={classes.cardGrid}>
           <Grid container spacing={4}>
             {projects.map((project) => (
               <Grid item key={project.id} xs={12} sm={6} md={4}>

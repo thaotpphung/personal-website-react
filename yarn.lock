@@ -7900,6 +7900,11 @@
     "lodash" "^4.17.5"
     "webpack-sources" "^1.1.0"
 
+"lato-font@^3.0.0":
+  "integrity" "sha1-kbg34jdLZo+3Mx1EyJTTei2fjhE="
+  "resolved" "https://registry.npmjs.org/lato-font/-/lato-font-3.0.0.tgz"
+  "version" "3.0.0"
+
 "leven@^3.1.0":
   "integrity" "sha512-qsda+H8jTaUaN/x5vzW2rzc+8Rw4TAQ/4KjB46IwK5VH+IlVeeeje/EoZRpiXvIqjFgK84QffqPztGI3VBLG1A=="
   "resolved" "https://registry.yarnpkg.com/leven/-/leven-3.1.0.tgz"
@@ -12494,11 +12499,6 @@
   "integrity" "sha512-NOJ6JZCAWr0zlxZt+xqCHNTEKOsrks2HQd4MqhP1qy4z1SkbEP467eNx6TgDKXMvUOb+OENfJCZwM+16n7fRfw=="
   "resolved" "https://registry.npmjs.org/value-equal/-/value-equal-1.0.1.tgz"
   "version" "1.0.1"
-
-"vanta@^0.5.21":
-  "integrity" "sha512-UYW6rYXVl8klFbQrhmgDMZ7SCys9hKROIuTlq5M+v6j346BPu1wqBwVRQPHiYsuooWkUYY6HSXV/9HrJBSuo6g=="
-  "resolved" "https://registry.npmjs.org/vanta/-/vanta-0.5.21.tgz"
-  "version" "0.5.21"
 
 "vary@~1.1.2":
   "integrity" "sha1-IpnwLG3tMNSllhsLn3RSShj2NPw="

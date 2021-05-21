@@ -2,6 +2,8 @@ import stock from '../img/projects/stock.webp';
 import dir from '../img/projects/dir.webp';
 import rgb from '../img/projects/rgb.webp';
 import req from '../img/projects/req.webp';
+import hac from '../img/projects/hac.png';
+import gomoku from '../img/projects/gomoku.png';
 
 export const projects = [
   {
@@ -39,9 +41,29 @@ export const projects = [
     image: dir,
     title: "Directory Synchronization Tool",
     description:
-      " desktop application to synchronize directories between two computers, used as a backup tool.",
+      "A desktop application to synchronize directories between two computers, used as a backup tool.",
     tech: "Java TCP OOP Client Server Multithreading",
     github: "",
     demo: "",
   },
+  {
+    id: 5,
+    image: hac,
+    title: "High Availability Cluster",
+    description:
+      "An application layer protocol over UDP to facilitate High Availability Cluster (HAC).",
+    tech: "Java UDP OOP Client Server Multithreading",
+    github: "",
+    demo: "",
+  },
+  {
+    id: 6,
+    image: gomoku,
+    title: "Gomoku",
+    description:
+      "Implementation of the strategy board game Gomoku, employing Minimax approach with Alphabeta pruning for optimization.",
+    tech: "Python AI",
+    github: "",
+    demo: "",
+  }
 ];

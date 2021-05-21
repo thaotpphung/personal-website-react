@@ -13,9 +13,8 @@ const Education = () => {
   return (
     <div className={classes.root}>
       <Container maxWidth="md">
-      {/* <Card className={classes.card}> */}
         <Grid container spacing={2}>
-          <Grid item xs={4} container>
+          <Grid item xs={12} sm={4} container>
             <Grid
               item
               xs
@@ -34,12 +33,12 @@ const Education = () => {
               </Grid>
               <Grid item>
                 <Typography variant="subtitle1">Kirksville, MO</Typography>
-                <Typography variant="substitle1">Aug 2017 - Dec 2021</Typography>
+                <Typography variant="subtitle1">Aug 2017 - Dec 2021</Typography>
               </Grid>
             </Grid>
           </Grid>
 
-          <Grid item xs={8} container>
+          <Grid item xs={12} sm={8} container>
             <Grid item xs container direction="column" spacing={2}>
               <Grid item xs>
                 <Typography gutterBottom variant="h6">
@@ -48,66 +47,60 @@ const Education = () => {
                 <Typography variant="subtitle1" gutterBottom>
                   GPA: 3.93/4.00
                 </Typography>
-                <Typography variant="subtitle1" gutterBottom>
-                  Activities:
-                  <Typography
-                    color="textSecondary"
-                    className={classes.subDescription}
-                    variant="subtitle2"
-                  >
-                    <ul>
-                      <li>Association for Computing Machinery</li>
-                      <li>Tru Woman in Computer Science</li>
-                      <li>Vietnamese Student Association</li>
-                      <li>Japanese Language Exchange Group</li>
-                      <li>International Collegiate Programming Contest</li>
-                    </ul>
-                  </Typography>
+                <Typography variant="subtitle1">Activities:</Typography>
+                <Typography
+                  color="textSecondary"
+                  className={classes.subDescription}
+                  variant="subtitle2"
+                >
+                  <ul>
+                    <li>Association for Computing Machinery</li>
+                    <li>Tru Woman in Computer Science</li>
+                    <li>Vietnamese Student Association</li>
+                    <li>Japanese Language Exchange Group</li>
+                    <li>International Collegiate Programming Contest</li>
+                  </ul>
                 </Typography>
-                <Typography variant="subtitle1" gutterBottom>
+                <Typography variant="subtitle1">
                   Relevant Coursework:
-                  <Typography
-                    color="textSecondary"
-                    className={classes.subDescription}
-                    variant="subtitle2"
-                  >
-                    <ul>
-                      <li>Data Structure and Algorithms</li>
-                      <li>Computing Structures </li>
-                      <li>Systems Programming </li>
-                      <li>ComputerArchitecture and Organization</li>
-                      <li>Internet Programming</li>
-                      <li>Foundation of Computer Science</li>
-                      <li>UI Design </li>
-                      <li>Object-Oriented Design </li>
-                      <li>Computer Networks </li>
-                      <li>Artificial Intelligence </li>
-                      <li>Software Engineering </li>
-                      <li>Discrete Mathematics </li>
-                      <li>Ordinary Differential Equation</li>
-                      <li>Linear Algebra </li>
-                    </ul>
-                  </Typography>
                 </Typography>
-                <Typography variant="subtitle1" gutterBottom>
-                  Achievements:
-                  <Typography
-                    color="textSecondary"
-                    className={classes.subDescription}
-                    variant="subtitle2"
-                  >
-                    <ul>
-                      <li>President Honor Scholarship
-                      </li>
-                      <li>President/Vice President List</li>
-                    </ul>
-                  </Typography>
+                <Typography
+                  color="textSecondary"
+                  className={classes.subDescription}
+                  variant="subtitle2"
+                >
+                  <ul>
+                    <li>Data Structure and Algorithms</li>
+                    <li>Computing Structures </li>
+                    <li>Systems Programming </li>
+                    <li>ComputerArchitecture and Organization</li>
+                    <li>Internet Programming</li>
+                    <li>Foundation of Computer Science</li>
+                    <li>UI Design </li>
+                    <li>Object-Oriented Design </li>
+                    <li>Computer Networks </li>
+                    <li>Artificial Intelligence </li>
+                    <li>Software Engineering </li>
+                    <li>Discrete Mathematics </li>
+                    <li>Ordinary Differential Equation</li>
+                    <li>Linear Algebra </li>
+                  </ul>
+                </Typography>
+                <Typography variant="subtitle1">Achievements:</Typography>
+                <Typography
+                  color="textSecondary"
+                  className={classes.subDescription}
+                  variant="subtitle2"
+                >
+                  <ul>
+                    <li>President Honor Scholarship</li>
+                    <li>President/Vice President List</li>
+                  </ul>
                 </Typography>
               </Grid>
             </Grid>
           </Grid>
         </Grid>
-        {/* </Card> */}
       </Container>
     </div>
   );
