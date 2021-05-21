@@ -1,4 +1,4 @@
-import PersonIcon from "@material-ui/icons/Person";
+import EmojiEmotionsIcon from '@material-ui/icons/EmojiEmotions';
 import MenuBookIcon from "@material-ui/icons/MenuBook";
 import BusinessCenterIcon from "@material-ui/icons/BusinessCenter";
 import EmojiObjectsIcon from "@material-ui/icons/EmojiObjects";
@@ -8,7 +8,7 @@ export const navs = [
     id: 0,
     to: "/",
     label: "Thao Phung",
-    icon: (<PersonIcon />)
+    icon: (<EmojiEmotionsIcon />)
   },
   {
     id: 1,

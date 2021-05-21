@@ -1,4 +1,4 @@
-import EmojiEmotionsIcon from "@material-ui/icons/EmojiEmotions";
+import SchoolIcon from '@material-ui/icons/School';
 import RoomIcon from "@material-ui/icons/Room";
 import FlightTakeoffIcon from "@material-ui/icons/FlightTakeoff";
 import MailIcon from "@material-ui/icons/Mail";
@@ -9,9 +9,9 @@ export const link1 = [
   {
     id: 1,
     href: "",
-    icon: (<EmojiEmotionsIcon/>),
-    title: "Pronouns:",
-    content: "She/Her",
+    icon: (<SchoolIcon/>),
+    title: "Truman State University",
+    content: "",
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ export const link1 = [
     icon: (<FlightTakeoffIcon/>),
     title: "From:",
     content: "Hanoi, Vietnam",
-  }
+  },
 ];
 
 export const link2 = [
